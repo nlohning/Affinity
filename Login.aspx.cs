@@ -32,13 +32,11 @@ public partial class Login : System.Web.UI.Page
                 SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["users"].ConnectionString);
                 conn.Open();
                 string checkIsUser = "select count(UserName) from userTable where UserName = '" + txtUsername.Text + "'";
-                string checkUser = "select UserName from userTable where UserName = '" + txtUsername.Text + "'";
                 SqlCommand cmdIsUser = new SqlCommand(checkIsUser, conn);
-                SqlCommand cmdUser = new SqlCommand(checkUser, conn);
                 int temp = Convert.ToInt32(cmdIsUser.ExecuteScalar().ToString());
                 if (temp == 1)
                 {
-                    string checkPass = "select Password from userTable where UserName = '" + cmdUser.ExecuteScalar().ToString() + "'";
+                    string checkPass = "select Password from userTable where UserName = '" + txtUsername.Text + "'";
                     SqlCommand cmdPass = new SqlCommand(checkPass, conn);
                     if(cmdPass.ExecuteScalar().ToString() == txtPassword.Text)
                     {
