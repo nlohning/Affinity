@@ -32,8 +32,9 @@ public partial class SignUp : System.Web.UI.Page
                     lblAvailable.Text = "Unavailable";
                     lblAvailable.Enabled = true;
                     lblAvailable.Visible = true;
+                    txtUsername.Focus();
                     return false;
-                }
+                } 
                 else
                 {
                     conn.Close();
@@ -70,6 +71,10 @@ public partial class SignUp : System.Web.UI.Page
             cmd.ExecuteNonQuery();
             Response.Redirect("CreationSuccess.aspx");
         }
+        else
+        {
+            txtPassword.Focus();
+        }
         
     }
     
@@ -91,6 +96,7 @@ public partial class SignUp : System.Web.UI.Page
                     lblAvailable.Text = "Unavailable";
                     lblAvailable.Enabled = true;
                     lblAvailable.Visible = true;
+                    txtUsername.Focus();
                 }
                 else
                 {
@@ -98,6 +104,7 @@ public partial class SignUp : System.Web.UI.Page
                     lblAvailable.Text = "Available";
                     lblAvailable.Enabled = true;
                     lblAvailable.Visible = true;
+
                 }
                 conn.Close();
 

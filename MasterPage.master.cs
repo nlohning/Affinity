@@ -9,6 +9,14 @@ public partial class MasterPage : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if(Session["user"] != null)
+        {
+            btnUserName.Text = (string)(Session["user"]);
+            btnUserName.Visible = true;
+        }
+        else
+        {
+            btnUserName.Visible = false;
+        }
     }
 }
