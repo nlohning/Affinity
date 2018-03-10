@@ -28,6 +28,7 @@
 				<ul>
 					<li><a href="Default.aspx">Home</a></li>
 					<li><a href="Teams.aspx">Teams</a></li>
+                    <li><a href="Forum.aspx">Forum</a></li>
                     <li><a href="SignUp.aspx">Sign Up</a> / <a href="Login.aspx">Log In</a></li>
 				</ul>
                 <p class="auto-style1">
