@@ -15,12 +15,18 @@
         .auto-style1 {
             text-align: center;
         }
+        .auto-style2 {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <header>
-		<div class="container">
+		<div class="auto-style2">
 			<div id="branding">
 				<h1><span class="highlight">Affinity</span> eSports</h1>
 			</div>
@@ -28,7 +34,7 @@
 				<ul>
 					<li><a href="Default.aspx">Home</a></li>
 					<li><a href="Teams.aspx">Teams</a></li>
-                    <li><a href="SignUp.aspx">Sign Up</a> / <a href="Login.aspx">Log In</a></li>
+                   <%-- <li><a href="SignUp.aspx">Sign Up</a> / <a href="Login.aspx">Log In</a></li>--%>
 				</ul>
                 <p class="auto-style1">
                     <asp:Button ID="btnUserName" runat="server" BackColor="#00ACFF" BorderStyle="None" Font-Bold="True" ForeColor="#007DFF" ValidateRequestMode="Disabled" Visible="False" />
@@ -39,7 +45,6 @@
 
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
         </asp:ContentPlaceHolder>
     </div>
     </form>
