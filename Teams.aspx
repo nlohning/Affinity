@@ -1,17 +1,18 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Teams.aspx.cs" Inherits="Teams" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-</asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div class="teamName">
+    <h1 class="auto-style1">Affinity eSports Teams</h1>
+    <h3 class="auto-style1">(Click Names for op.gg)</h3>
+    <div  style="background-color: #D4FFFA;">
+    <div class="teamName" style="background-color: #D4FFFA;">
 					<h1>Affinity</h1>
 				</div>
-	<div class="container1">
-
+	<div class="container1"">
 				<div class="icon1">
 					<img src="./images/leaguelogo.jpg">
 					<h3>
-                        <asp:Button ID="Button1" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Spuring" BackColor="#f4f4f4" />
+                        <asp:Button ID="Button1" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Spuring" BackColor="#D4FFFA" />
                     </h3>
 					<p>Top</p>
 				</div>
@@ -20,7 +21,7 @@
 			
 				<div class="icon2">
 					<img src="./images/leaguelogo.jpg">
-					<h3>    <asp:Button ID="Button2" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Some Boi" BackColor="#f4f4f4" /></h3>
+					<h3>    <asp:Button ID="Button2" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Some Boi" BackColor="#D4FFFA" /></h3>
 					<p>Jungle</p>
 				</div>
 			
@@ -28,14 +29,14 @@
 			
 				<div class="icon3">
 					<img src="./images/leaguelogo.jpg">
-					<h3><asp:Button ID="Button3" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Valar" BackColor="#f4f4f4" /></h3>
+					<h3><asp:Button ID="Button3" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Valar" BackColor="#D4FFFA" /></h3>
 					<p>Mid</p>
 				</div>
 
 
 				<div class="icon4">
 					<img src="./images/lucian.png">
-					<h3><asp:Button ID="Button4" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Fed" BackColor="#f4f4f4" /></h3>
+					<h3><asp:Button ID="Button4" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Fed" BackColor="#D4FFFA" /></h3>
 					<p>AD Carry</p>
 				</div>
 
@@ -43,11 +44,11 @@
 
 				<div class="icon5">
 					<img src="./images/leaguelogo.jpg">
-					<h3><asp:Button ID="Button5" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Fortification" BackColor="#f4f4f4" /></h3>
+					<h3><asp:Button ID="btnFortification" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Fortification" BackColor="#D4FFFA" /></h3>
 					<p>Support</p>
 				</div>
 		</div>
-
+        </div>
 
     <br />
 
@@ -98,7 +99,7 @@
 		</div>
 
     <br />
-
+    <div  style="background-color: #D4FFFA;">
         <div class="teamName">
 					<h1>Rush Hour</h1>
 				</div>
@@ -107,7 +108,7 @@
 				<div class="icon1">
 					<img src="./images/leaguelogo.jpg">
 					<h3>
-                        <asp:Button ID="Button11" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Dane Cook" BackColor="#f4f4f4" />
+                        <asp:Button ID="Button11" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Dane Cook" BackColor="#D4FFFA" />
                     </h3>
 					<p>Top</p>
 				</div>
@@ -116,7 +117,7 @@
 			
 				<div class="icon2">
 					<img src="./images/leaguelogo.jpg">
-					<h3>    <asp:Button ID="Button12" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Panduhhh" BackColor="#f4f4f4" /></h3>
+					<h3>    <asp:Button ID="Button12" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Panduhhh" BackColor="#D4FFFA" /></h3>
 					<p>Jungle</p>
 				</div>
 			
@@ -124,14 +125,14 @@
 			
 				<div class="icon3">
 					<img src="./images/leaguelogo.jpg">
-					<h3><asp:Button ID="Button13" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Sir Michaleous" BackColor="#f4f4f4" /></h3>
+					<h3><asp:Button ID="Button13" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Sir Michaleous" BackColor="#D4FFFA" /></h3>
 					<p>Mid</p>
 				</div>
 
 
 				<div class="icon4">
 					<img src="./images/lucian.png">
-					<h3><asp:Button ID="Button14" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="ItsDatSmiley" BackColor="#f4f4f4" /></h3>
+					<h3><asp:Button ID="Button14" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="ItsDatSmiley" BackColor="#D4FFFA" /></h3>
 					<p>AD Carry</p>
 				</div>
 
@@ -139,11 +140,11 @@
 
 				<div class="icon5">
 					<img src="./images/leaguelogo.jpg">
-					<h3><asp:Button ID="Button15" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="silentbluedeath" BackColor="#f4f4f4" /></h3>
+					<h3><asp:Button ID="Button15" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="silentbluedeath" BackColor="#D4FFFA" /></h3>
 					<p>Support</p>
 				</div>
 		</div>
-
+        </div>
     <br />
 
             <div class="teamName">
@@ -192,16 +193,16 @@
 		</div>
 
     <br />
-
+    <div  style="background-color: #D4FFFA;">
                 <div class="teamName">
 					<h1>Top Priority</h1>
 				</div>
-	<div class="container1">
+	<div class="container1"">
 
 				<div class="icon1">
 					<img src="./images/leaguelogo.jpg">
 					<h3>
-                        <asp:Button ID="Button21" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="JackKelley13" BackColor="#f4f4f4" />
+                        <asp:Button ID="Button21" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="JackKelley13" BackColor="#D4FFFA" />
                     </h3>
 					<p>Top</p>
 				</div>
@@ -210,7 +211,7 @@
 			
 				<div class="icon2">
 					<img src="./images/leaguelogo.jpg">
-					<h3>    <asp:Button ID="Button22" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Krowe" BackColor="#f4f4f4" /></h3>
+					<h3>    <asp:Button ID="Button22" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Krowe" BackColor="#D4FFFA" /></h3>
 					<p>Jungle</p>
 				</div>
 			
@@ -218,7 +219,7 @@
 			
 				<div class="icon3">
 					<img src="./images/leaguelogo.jpg">
-					<h3><asp:Button ID="Button23" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Furry Owl" BackColor="#f4f4f4" /></h3>
+					<h3><asp:Button ID="Button23" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Furry Owl" BackColor="#D4FFFA" /></h3>
 					<p>Mid</p>
 				</div>
 
@@ -233,11 +234,11 @@
 
 				<div class="icon5">
 					<img src="./images/leaguelogo.jpg">
-					<h3><asp:Button ID="Button25" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="SKy High Turtle" BackColor="#f4f4f4" /></h3>
+					<h3><asp:Button ID="Button25" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="SKy High Turtle" BackColor="#D4FFFA" /></h3>
 					<p>Support</p>
 				</div>
 		</div>
-
+        </div>
     <br />
 
                     <div class="teamName">
@@ -286,7 +287,7 @@
 		</div>
 
     <br />
-
+    <div  style="background-color: #D4FFFA;">
               <div class="teamName">
 					<h1>PRAE Gaming</h1>
 				</div>
@@ -295,7 +296,7 @@
 				<div class="icon1">
 					<img src="./images/leaguelogo.jpg">
 					<h3>
-                        <asp:Button ID="Button31" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="PRAE Myth" BackColor="#f4f4f4" />
+                        <asp:Button ID="Button31" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="PRAE Myth" BackColor="#D4FFFA" />
                     </h3>
 					<p>Top</p>
 				</div>
@@ -304,7 +305,7 @@
 			
 				<div class="icon2">
 					<img src="./images/leaguelogo.jpg">
-					<h3>    <asp:Button ID="Button32" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="PRAE Matrix" BackColor="#f4f4f4" /></h3>
+					<h3>    <asp:Button ID="Button32" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="PRAE Matrix" BackColor="#D4FFFA" /></h3>
 					<p>Jungle</p>
 				</div>
 			
@@ -312,14 +313,14 @@
 			
 				<div class="icon3">
 					<img src="./images/leaguelogo.jpg">
-					<h3><asp:Button ID="Button33" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="PRAE Eddiezur" BackColor="#f4f4f4" /></h3>
+					<h3><asp:Button ID="Button33" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="PRAE Eddiezur" BackColor="#D4FFFA" /></h3>
 					<p>Mid</p>
 				</div>
 
 
 				<div class="icon4">
 					<img src="./images/lucian.png">
-					<h3><asp:Button ID="Button34" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="DarkAuroraAura" BackColor="#f4f4f4" /></h3>
+					<h3><asp:Button ID="Button34" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="DarkAuroraAura" BackColor="#D4FFFA" /></h3>
 					<p>AD Carry</p>
 				</div>
 
@@ -327,11 +328,11 @@
 
 				<div class="icon5">
 					<img src="./images/leaguelogo.jpg">
-					<h3><asp:Button ID="Button35" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="PRAE Uno" BackColor="#f4f4f4" /></h3>
+					<h3><asp:Button ID="Button35" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="PRAE Uno" BackColor="#D4FFFA" /></h3>
 					<p>Support</p>
 				</div>
 		</div>
-
+        </div>
     <br />
 
           <div class="teamName">
@@ -380,16 +381,15 @@
 		</div>
 
     <br />
-
+    <div  style="background-color: #D4FFFA;">
          <div class="teamName">
 					<h1>Usurper</h1>
 				</div>
 	<div class="container1">
-
 				<div class="icon1">
 					<img src="./images/leaguelogo.jpg">
 					<h3>
-                        <asp:Button ID="Button41" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="ON Some Lean" BackColor="#f4f4f4" />
+                        <asp:Button ID="Button41" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="ON Some Lean" BackColor="#D4FFFA" />
                     </h3>
 					<p>Top</p>
 				</div>
@@ -398,7 +398,7 @@
 			
 				<div class="icon2">
 					<img src="./images/leaguelogo.jpg">
-					<h3>    <asp:Button ID="Button42" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="TôpMan" BackColor="#f4f4f4" /></h3>
+					<h3>    <asp:Button ID="Button42" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="TôpMan" BackColor="#D4FFFA" /></h3>
 					<p>Jungle</p>
 				</div>
 			
@@ -406,7 +406,7 @@
 			
 				<div class="icon3">
 					<img src="./images/leaguelogo.jpg">
-					<h3><asp:Button ID="Button43" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Acmeyw" BackColor="#f4f4f4" /></h3>
+					<h3><asp:Button ID="Button43" runat="server" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="15pt" OnClick="Button1_Click" Text="Acmeyw" BackColor="#D4FFFA" /></h3>
 					<p>Mid</p>
 				</div>
 
@@ -425,7 +425,7 @@
 					<p>Support</p>
 				</div>
 		</div>
-
+        </div>
     <br />
 
         <div class="teamName">

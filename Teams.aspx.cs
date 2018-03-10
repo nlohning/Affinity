@@ -14,6 +14,7 @@ public partial class Teams : System.Web.UI.Page
 
     protected void Button1_Click(object sender, EventArgs e)
     {
-
+        Button clickedButton = (Button)sender;
+        Response.Redirect("http://na.op.gg/summoner/userName=" + clickedButton.Text);
     }
 }
