@@ -18,7 +18,7 @@
             </div>
 
             <div class="icon2">
-                <img src="images/Jungle_icon.png">
+                <img src="images/rengar.png">
                 <h3>
                     <asp:button id="Button2" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Nlol" backcolor="#D4FFFA" />
                 </h3>
@@ -34,7 +34,7 @@
             </div>
 
             <div class="icon4">
-                <img src="images/Bot_icon.png">
+                <img src="images/Lucian.png">
                 <h3>
                     <asp:button id="Button4" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Fèd" backcolor="#D4FFFA" />
                 </h3>
@@ -42,7 +42,7 @@
             </div>
 
             <div class="icon5">
-                <img src="images/Support_icon.png">
+                <img src="images/LeonaSquare.png">
                 <h3>
                     <asp:button id="btnFortification" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Fortification" backcolor="#D4FFFA" />
                 </h3>
@@ -91,7 +91,7 @@
         </div>
 
         <div class="icon5">
-            <img src="images/Support_icon.png">
+            <img src="images/DJ_Sona.png">
             <h3>
                 <asp:button id="Button10" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Left Aid" backcolor="#f4f4f4" />
             </h3>
