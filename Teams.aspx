@@ -49,17 +49,16 @@
 					<p>Support</p>
 				</div>
 		</div>
-=======
+
     <div style="background-color: #D4FFFA;">
         <div class="teamName" style="background-color: #D4FFFA;">
             <h1>Affinity</h1>
->>>>>>> 515523c172d4835132b8bdd2fe952dca821910de
         </div>
         <div class="container1">
             <div class="icon1">
                 <img src="images/Top_icon.png">
                 <h3>
-                    <asp:button id="Button1" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Spuring" backcolor="#D4FFFA" />
+                    <asp:button id="b6" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Spuring" backcolor="#D4FFFA" />
                 </h3>
                 <p>Top</p>
             </div>
@@ -67,7 +66,7 @@
             <div class="icon2">
                 <img src="images/rengar.png">
                 <h3>
-                    <asp:button id="Button2" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Nlol" backcolor="#D4FFFA" />
+                    <asp:button id="b7" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Nlol" backcolor="#D4FFFA" />
                 </h3>
                 <p>Jungle</p>
             </div>
@@ -75,7 +74,7 @@
             <div class="icon3">
                 <img src="images/Middle_icon.png">
                 <h3>
-                    <asp:button id="Button3" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Vąlar Morghulis" backcolor="#D4FFFA" />
+                    <asp:button id="b8" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Vąlar Morghulis" backcolor="#D4FFFA" />
                 </h3>
                 <p>Mid</p>
             </div>
@@ -83,7 +82,7 @@
             <div class="icon4">
                 <img src="images/Lucian.png">
                 <h3>
-                    <asp:button id="Button4" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Fèd" backcolor="#D4FFFA" />
+                    <asp:button id="b9" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Fèd" backcolor="#D4FFFA" />
                 </h3>
                 <p>AD Carry</p>
             </div>
@@ -91,7 +90,7 @@
             <div class="icon5">
                 <img src="images/LeonaSquare.png">
                 <h3>
-                    <asp:button id="btnFortification" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Fortification" backcolor="#D4FFFA" />
+                    <asp:button id="b10" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="Fortification" backcolor="#D4FFFA" />
                 </h3>
                 <p>Support</p>
             </div>
@@ -101,7 +100,7 @@
     <br />
 
     <div class="teamName">
-<<<<<<< HEAD
+
 					<h1>Paragon</h1>
 				</div>
 	<div class="container1">
@@ -192,7 +191,7 @@
 					<p>Support</p>
 				</div>
 		</div>
-=======
+
         <h1>Paragon</h1>
     </div>
     <div class="container1">
@@ -203,7 +202,7 @@
                 <asp:button id="Button6" runat="server" borderstyle="None" font-bold="True" font-names="Arial" font-size="15pt" onclick="Button1_Click" text="OutdoorLegend" backcolor="#f4f4f4" />
             </h3>
             <p>Top</p>
->>>>>>> 515523c172d4835132b8bdd2fe952dca821910de
+
         </div>
 
         <div class="icon2">
