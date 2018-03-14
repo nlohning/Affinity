@@ -82,13 +82,12 @@ header a:hover{
 }
 
 /*showcase*/
-#showcase{
-	min-height: 400px;
-	background:url(../images/banner.png) no-repeat;
-	text-align: center;
-	color:#ffffff;
-
-	background-position: center top;
+#showcase {
+    min-height: 400px;
+    background: url(../images/banner.png) no-repeat;
+    text-align: center;
+    color: black;
+    background-position: center top;
 }
 
 #showcase h1{
