@@ -20,9 +20,6 @@
 
 	<section id="news">
 		<div class="auto-style1">
-		    <asp:Label class="news" ID="lblSignUp" runat="server" Text="Sign up to receive emails about new tournaments and developments throughout Affinity!" Font-Size="Larger"></asp:Label>
-&nbsp;&nbsp;&nbsp;
-            <asp:Button class="SignUp" ID="SignUp" runat="server" Text="Sign Up!" BackColor="#187CE4" Height="38px" OnClick="SignUp_Click" Width="96px" />
 		</div>
 	</section>
 
