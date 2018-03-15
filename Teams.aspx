@@ -4,7 +4,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <h1 class="auto-style1">Affinity eSports Teams</h1>
     <h3 class="auto-style1">(Click Names for op.gg)</h3>
-<<<<<<< HEAD
 
     <div  style="background-color: #44a1a0;">
         <br />
