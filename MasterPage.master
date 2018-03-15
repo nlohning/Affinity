@@ -17,6 +17,7 @@
         }
 
         .auto-style2 {
+            background:#064549;
             width: 80%;
             margin: auto;
             overflow: hidden;

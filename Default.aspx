@@ -22,7 +22,7 @@
 		<div class="auto-style1">
 		    <asp:Label class="news" ID="lblSignUp" runat="server" Text="Sign up to receive emails about new tournaments and developments throughout Affinity!" Font-Size="Larger"></asp:Label>
 &nbsp;&nbsp;&nbsp;
-            <asp:Button class="SignUp" ID="SignUp" runat="server" Text="Sign Up!" BackColor="#187CE4" Height="38px" OnClick="SignUp_Click" Width="96px" />
+            <asp:Button class="SignUp" ID="SignUp" runat="server" Text="Sign Up!" BackColor="#44A1A0" Height="38px" OnClick="SignUp_Click" Width="96px" />
 		</div>
 	</section>
 
@@ -31,26 +31,9 @@
 			<div class="box">
 				<img src="./images/leaguelogo.jpg">
 				<h3>League of Legends</h3>
-				<p>fuck me I want to die</p>
-			</div>
-
-
-		
-			<div class="box">
-				<img src="./images/leaguelogo.jpg">
-				<h3>Suicide</h3>
-				<p>fuck me I want to die</p>
-			</div>
-		
-
-		
-			<div class="box">
-				<img src="./images/leaguelogo.jpg">
-				<h3>Autism</h3>
-				<p>fuck me I want to die</p>
+				<p>issa game</p>
 			</div>
 		</div>
-		
 	</section>
 
 	
